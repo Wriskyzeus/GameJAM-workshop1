@@ -33,7 +33,7 @@ function showPokemon(pokemon) {
   // pokemon.height is its height in decimetres (10 decimetres = 1 metre).
   // Syntax example — adapt the attribute and divisor; this is not a real API field:
   // heightText.textContent = (pokemon.attribute / divisor) + ' m';
-  heightText.textContent = '?';
+ heightText.textContent = (pokemon.height / 10) + ' m';
 
   // OPTIONAL TODO 2: display weight in kilograms.
   // Find the field in the API response. 10 hectograms = 1 kilogram.
